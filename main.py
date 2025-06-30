@@ -317,6 +317,7 @@ while run:
   screen.fill('dark gray')
   draw_board()
   draw_pieces()
+  draw_captured()
   if selection != 100:
     valid_moves = check_valid_moves()
     draw_valid(valid_moves)
